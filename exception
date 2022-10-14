@@ -1,0 +1,21 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) 
+    {
+        int num1, num2;
+        try
+        {
+        num1 = 0;
+        num2 = 62 /num1;
+        System.out.println("Try block message");
+        }
+        catch(ArithmeticException e)
+        {
+            System.out.println("No division by zero");
+        }
+        System.out.println("Out of try catch block");
+    
+    }
+}
